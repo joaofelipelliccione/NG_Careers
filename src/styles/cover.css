@@ -1,5 +1,4 @@
 .coverSection {
-  /* border: solid 2px blue; */
   display: flex;
   width: 85%;
   flex-direction: column;
@@ -9,13 +8,11 @@
 }
 
 .mobileCover {
-  /* width: 30rem; */
   width: 100%;
   max-width: 35rem;
 }
 
 .desktopCover {
-  /* width: 70rem; */
   width: 100%;
   max-width: 100rem;
 }

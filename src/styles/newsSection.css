@@ -1,0 +1,24 @@
+.newsSection {
+  background-color: var(--grey);
+  width: 100%;
+  padding: 2%0;
+}
+
+.newsSectionWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  overflow-x: auto;
+}
+
+.newsSectionWrapper a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0 2%;
+  padding: 2% 0;
+}
+
+.newsSectionWrapper a img {
+  max-width: 10rem;
+}
