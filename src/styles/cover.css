@@ -7,8 +7,14 @@
   align-items: center;
 }
 
-.coverSection img {
-  width: 30rem;
+.mobileCover {
+  /* width: 30rem; */
   width: 100%;
   max-width: 35rem;
+}
+
+.desktopCover {
+  /* width: 70rem; */
+  width: 100%;
+  max-width: 85rem;
 }
