@@ -1,0 +1,21 @@
+.careersPageHeader {
+  border: solid 2px red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.careersPageHeader a {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.careersPageHeader h1 {
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: 200;
+  margin-right: 3.5vw;
+}
