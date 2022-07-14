@@ -1,8 +1,12 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Careers from './pages/Careers';
+
 function App() {
   return (
-    <div className="App">
-      Oi
-    </div>
+    <Routes>
+      <Route path="/" element={ <Careers /> } />
+    </Routes>
   );
 }
 
