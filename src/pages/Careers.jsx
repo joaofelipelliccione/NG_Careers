@@ -8,6 +8,7 @@ import SecondCover from '../components/SecondCover';
 import MobileStatement from '../components/statements/MobileStatement';
 import DesktopStatement from '../components/statements/DesktopStatement';
 import statementsInfoMob, { statementsInfoDesktop } from '../data/statementsInfo';
+import Footer from '../components/Footer';
 import '../styles/careers.css';
 
 function Careers() {
@@ -41,6 +42,7 @@ function Careers() {
               personStatementPicture={ personStatPic }
             />
           )))}
+      <Footer />
     </div>
   );
 }
