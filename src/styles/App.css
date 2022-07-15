@@ -28,3 +28,30 @@ html {
     transform: rotate(360deg);
   }
 }
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(10rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-10rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
