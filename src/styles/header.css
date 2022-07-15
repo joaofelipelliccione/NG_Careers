@@ -16,7 +16,7 @@
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
-.careersPageHeader a img {
+.ngLogo {
   width: 160px;
   animation-duration: 1s;
   animation-timing-function: ease-out;
@@ -25,14 +25,12 @@
   animation-name: slideInFromLeft;
 }
 
-.careersPageHeader h1 {
-  color: var(--white);
-  font-size: 2.3rem;
-  font-weight: 200;
-  margin-right: 30px;
+.linkedinLogo {
+  width: 50px;
+  margin-right: 10px;
   animation-duration: 1s;
   animation-timing-function: ease-out;
   animation-delay: 0s;
   animation-iteration-count: 1;
-  animation-name: slideInFromRight;
+  animation-name: slideInFromLeft;
 }

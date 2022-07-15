@@ -1,18 +1,25 @@
 import React from 'react';
 import ngLogo from '../assets/logo_ng_cash.svg';
+import linkedinLogo from '../assets/logo_linkedin.svg';
 import '../styles/header.css';
 
 function Header() {
   return (
     <header className="careersPageHeader">
       <a href="https://ng.cash/" target="_blank" rel="noreferrer">
-        <img src={ ngLogo } alt="Logo NG.CASH" />
+        <img
+          className="ngLogo"
+          src={ ngLogo }
+          alt="Logo NG.CASH"
+        />
       </a>
-      <h1>
-        <em>
-          Carreiras
-        </em>
-      </h1>
+      <a href="https://www.linkedin.com/company/ngcash/" target="_blank" rel="noreferrer">
+        <img
+          className="linkedinLogo"
+          src={ linkedinLogo }
+          alt="Logo Linkedin"
+        />
+      </a>
     </header>
   );
 }
