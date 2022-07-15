@@ -1,7 +1,7 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import coverMobile from '../assets/cover_mobile.png';
-import coverDesktop from '../assets/cover_desktop.png';
+import coverMobile from '../assets/cover_mobile.svg';
+import coverDesktop from '../assets/cover_desktop.svg';
 import '../styles/cover.css';
 
 function Cover() {
