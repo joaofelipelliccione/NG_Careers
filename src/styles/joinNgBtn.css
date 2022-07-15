@@ -1,16 +1,31 @@
-.joinNgBtn {
+.joinNgBtnMobile {
   background-color: var(--purple);
   color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  font-size: 2.6rem;
+  font-size: 2rem;
   font-weight: 500;
   padding: 2% 0;
+  transition-duration: 0.3s;
 }
 
-.joinNgBtn:hover {
+.joinNgBtnDesktop {
+  background-color: var(--purple);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 2.8rem;
+  font-weight: 500;
+  padding: 2% 0;
+  transition-duration: 0.3s;
+}
+
+.joinNgBtnDesktop:hover {
   background-color: var(--green);
   color: var(--black);
+  text-decoration: overline;
 }

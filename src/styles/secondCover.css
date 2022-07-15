@@ -18,9 +18,11 @@
 .mobileSecondCover {
   width: 100%;
   max-width: 35rem;
+  transition-duration: 0.3s;
 }
 
 .desktopSecondCover {
   width: 100%;
   max-width: 100rem;
+  transition-duration: 0.3s;
 }

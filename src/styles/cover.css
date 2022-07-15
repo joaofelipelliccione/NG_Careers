@@ -10,9 +10,11 @@
 .mobileCover {
   width: 100%;
   max-width: 35rem;
+  transition-duration: 0.3s;
 }
 
 .desktopCover {
   width: 100%;
   max-width: 100rem;
+  transition-duration: 0.3s;
 }
