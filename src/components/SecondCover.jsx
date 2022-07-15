@@ -9,19 +9,21 @@ function SecondCover() {
 
   return (
     <section className="secondCoverSection">
-      {isMobileDevice ? (
-        <img
-          src={ secondCoverMobile }
-          alt="Mosaico Klovis"
-          className="mobileSecondCover"
-        />
-      ) : (
-        <img
-          src={ secondCoverDesktop }
-          alt="Mosaico Klovis"
-          className="desktopSecondCover"
-        />
-      )}
+      <div>
+        {isMobileDevice ? (
+          <img
+            src={ secondCoverMobile }
+            alt="Mosaico Klovis"
+            className="mobileSecondCover"
+          />
+        ) : (
+          <img
+            src={ secondCoverDesktop }
+            alt="Mosaico Klovis"
+            className="desktopSecondCover"
+          />
+        )}
+      </div>
     </section>
   );
 }
