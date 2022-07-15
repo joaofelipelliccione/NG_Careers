@@ -14,11 +14,12 @@
 
 .personPicMob {
   width: 50%;
-  margin-bottom: 7%;
+  margin: 5% 0;
   transition-duration: 0.3s;
 }
 
 .statementMob {
   width: 80%;
+  margin: 3% 0;
   transition-duration: 0.3s;
 }
