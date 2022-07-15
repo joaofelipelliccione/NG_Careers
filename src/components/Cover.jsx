@@ -10,9 +10,9 @@ function Cover() {
   return (
     <section className="coverSection">
       {isMobileDevice ? (
-        <img src={ coverMobile } alt="Logo NG.CASH" className="mobileCover" />
+        <img src={ coverMobile } alt="Mosaico NG.Card" className="mobileCover" />
       ) : (
-        <img src={ coverDesktop } alt="Logo NG.CASH" className="desktopCover" />
+        <img src={ coverDesktop } alt="Mosaico NG.Card" className="desktopCover" />
       )}
     </section>
   );

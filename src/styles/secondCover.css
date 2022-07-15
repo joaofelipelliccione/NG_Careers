@@ -1,0 +1,19 @@
+.secondCoverSection {
+  background-color: var(--green);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+.mobileSecondCover {
+  width: 100%;
+  max-width: 35rem;
+}
+
+.desktopSecondCover {
+  width: 100%;
+  max-width: 100rem;
+}
