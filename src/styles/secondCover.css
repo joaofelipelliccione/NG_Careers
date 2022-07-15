@@ -12,17 +12,18 @@
   flex-direction: column;
   align-content: center;
   align-items: center;
-  padding: 3%;
 }
 
 .mobileSecondCover {
   width: 100%;
   max-width: 35rem;
   transition-duration: 0.3s;
+  margin: 8% 0;
 }
 
 .desktopSecondCover {
   width: 100%;
   max-width: 100rem;
   transition-duration: 0.3s;
+  margin: 4% 0;
 }
