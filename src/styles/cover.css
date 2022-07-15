@@ -10,7 +10,8 @@
 .mobileCover {
   width: 100%;
   max-width: 30.5rem;
-  margin: 5% 0;
+  margin-top: 150px;
+  margin-bottom: 5%;
   transition-duration: 0.3s;
   animation-duration: 1s;
   animation-timing-function: ease-out;
@@ -22,7 +23,8 @@
 .desktopCover {
   width: 100%;
   max-width: 100rem;
-  margin: 2% 0;
+  margin-top: 230px;
+  margin-bottom: 2%;
   transition-duration: 0.3s;
   animation-duration: 1s;
   animation-timing-function: ease-out;

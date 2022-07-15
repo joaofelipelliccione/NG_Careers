@@ -1,9 +1,12 @@
 .careersPageHeader {
+  background-color: var(--black);
+  border-bottom: dotted 0.1px var(--white);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 95%;
-  padding-bottom: 2rem;
+  width: 100%;
+  position: fixed;
+  padding: 1.5% 0;
 }
 
 .careersPageHeader a {
