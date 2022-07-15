@@ -5,6 +5,7 @@ import logoEstadao from '../assets/logo_estadao.svg';
 import logoFolhaSP from '../assets/logo_folhaSP.svg';
 import logoIstoE from '../assets/logo_istoE.svg';
 import logoUol from '../assets/logo_uol.svg';
+import newsBillboard from '../assets/news_billboard.png';
 import '../styles/newsSection.css';
 
 const newsIcons = [
@@ -31,6 +32,7 @@ function NewsSection() {
           </a>
         ))}
       </div>
+      <img src={ newsBillboard } alt="Letreiro" className="newsBillboard" />
     </section>
   );
 }
