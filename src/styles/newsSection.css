@@ -27,6 +27,7 @@
 .newsIconsMobile{
   max-width: 7rem;
   transition-duration: 0.3s;
+  margin: 20% 0;
 }
 
 .newsIconsDesktop {

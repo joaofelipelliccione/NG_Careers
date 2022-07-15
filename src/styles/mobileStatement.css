@@ -1,0 +1,24 @@
+.mobileStatementSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.mobileStatementSection div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 5% 0;
+}
+
+.personPicMob {
+  width: 50%;
+  margin-bottom: 7%;
+  transition-duration: 0.3s;
+}
+
+.statementMob {
+  width: 80%;
+  transition-duration: 0.3s;
+}
