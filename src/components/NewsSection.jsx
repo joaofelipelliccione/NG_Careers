@@ -1,4 +1,5 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import logoGlobo from '../assets/logo_globo.svg';
 import logoForbes from '../assets/logo_forbes.svg';
 import logoEstadao from '../assets/logo_estadao.svg';
@@ -18,6 +19,8 @@ const newsIcons = [
 ];
 
 function NewsSection() {
+  const isMobileDevice = useMediaQuery({ query: '(max-width: 767px)' });
+
   return (
     <section className="newsSection">
       <div className="newsSectionWrapper">
@@ -28,7 +31,11 @@ function NewsSection() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={ iconImgSrc } alt="Logo do Jornal" />
+            <img
+              src={ iconImgSrc }
+              alt="Logo do Jornal"
+              className={ isMobileDevice ? 'newsIconsMobile' : 'newsIconsDesktop' }
+            />
           </a>
         ))}
       </div>

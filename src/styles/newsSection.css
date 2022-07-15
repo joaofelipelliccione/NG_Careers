@@ -24,8 +24,12 @@
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
-.newsSectionWrapper a img {
-  max-width: 13rem;
+.newsIconsDesktop {
+  max-width: 15rem;
+}
+
+.newsIconsMobile{
+  max-width: 7rem;
 }
 
 .newsBillboard {
