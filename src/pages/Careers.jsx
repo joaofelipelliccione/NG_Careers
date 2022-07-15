@@ -42,6 +42,7 @@ function Careers() {
               personStatementPicture={ personStatPic }
             />
           )))}
+      <JoinNgBtn />
       <Footer />
     </div>
   );
