@@ -13,8 +13,8 @@ import trindadePicDesktop from '../assets/statements/desktop/trindade_pic_desk.p
 import trindadeTextDesktop from '../assets/statements/desktop/trindade_text_desk.png';
 import paulaPicMob from '../assets/statements/mobile/paula_pic_mob.png';
 import paulaTextMob from '../assets/statements/mobile/paula_text_mob.png';
-// import paulaPicDesktop from '../assets/statements/desktop/paula_pic_desk.png';
-// import paulaTextDesktop from '../assets/statements/desktop/paula_text_desk.png';
+import paulaPicDesktop from '../assets/statements/desktop/paula_pic_desk.png';
+import paulaTextDesktop from '../assets/statements/desktop/paula_text_desk.png';
 import '../styles/careers.css';
 
 const statementsInfoMob = [
@@ -27,6 +27,21 @@ const statementsInfoMob = [
     bgColor: '#FFFFFF',
     personPic: paulaPicMob,
     personStatPic: paulaTextMob,
+  },
+];
+
+const statementsInfoDesktop = [
+  { name: 'Victor Trindade',
+    bgColor: '#7D2CFF',
+    picSide: 'left',
+    personPic: trindadePicDesktop,
+    personStatPic: trindadeTextDesktop,
+  },
+  { name: 'Paula Cruz',
+    bgColor: '#FFFFFF',
+    picSide: 'right',
+    personPic: paulaPicDesktop,
+    personStatPic: paulaTextDesktop,
   },
 ];
 
@@ -50,13 +65,17 @@ function Careers() {
           />
         )))
         : (
-          <DesktopStatement
-            bkgrndColor="#7D2CFF"
-            pictureSide="left"
-            personPicture={ trindadePicDesktop }
-            personStatementPicture={ trindadeTextDesktop }
-          />
-        )}
+          statementsInfoDesktop.map(({
+            name, bgColor, picSide, personPic, personStatPic,
+          }) => (
+            <DesktopStatement
+              key={ name }
+              bkgrndColor={ bgColor }
+              pictureSide={ picSide }
+              personPicture={ personPic }
+              personStatementPicture={ personStatPic }
+            />
+          )))}
     </div>
   );
 }
