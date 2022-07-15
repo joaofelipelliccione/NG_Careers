@@ -19,6 +19,6 @@
 }
 
 .statementDesktopRight, .statementDesktopLeft {
-  width: 21%;
+  width: 20%;
   transition-duration: 0.3s;
 }

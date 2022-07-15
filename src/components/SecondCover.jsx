@@ -1,7 +1,7 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import secondCoverMobile from '../assets/second_cover_mobile.png';
-import secondCoverDesktop from '../assets/second_cover_desktop.png';
+import secondCoverMobile from '../assets/second_cover_mobile.svg';
+import secondCoverDesktop from '../assets/second_cover_desktop.svg';
 import '../styles/secondCover.css';
 
 function SecondCover() {
