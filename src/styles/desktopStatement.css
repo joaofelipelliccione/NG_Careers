@@ -13,12 +13,12 @@
   margin: 2% 0;
 }
 
-.personPicDesktopLeft {
+.personPicDesktopLeft, .personPicDesktopRight {
   width: 40%;
   transition-duration: 0.3s;
 }
 
-.statementDesktopRight {
+.statementDesktopRight, .statementDesktopLeft {
   width: 21%;
   transition-duration: 0.3s;
 }
