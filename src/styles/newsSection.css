@@ -32,11 +32,7 @@
   max-width: 7rem;
   transition-duration: 0.3s;
   margin: 20% 0;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-out;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-name: spin;
+  animation: spin 5s linear infinite;
 }
 
 .newsIconsDesktop {
