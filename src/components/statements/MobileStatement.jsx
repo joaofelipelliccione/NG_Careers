@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import 'animate.css/animate.min.css';
 import '../../styles/mobileStatement.css';
 
 function MobileStatement({ bkgrndColor, personPicture, personStatementPicture }) {
@@ -9,8 +11,10 @@ function MobileStatement({ bkgrndColor, personPicture, personStatementPicture })
       style={ { backgroundColor: bkgrndColor } }
     >
       <div>
-        <img src={ personPicture } alt="Entrevistado" className="personPicMob" />
-        <img src={ personStatementPicture } alt="Declaração" className="statementMob" />
+        <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+          <img src={ personPicture } alt="Entrevistado" className="personPicMob" />
+          <img src={ personStatementPicture } alt="Declaração" className="statementMob" />
+        </AnimationOnScroll>
       </div>
     </section>
   );

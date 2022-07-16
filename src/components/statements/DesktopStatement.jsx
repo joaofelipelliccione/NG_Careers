@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import 'animate.css/animate.min.css';
 import '../../styles/desktopStatement.css';
 
 function DesktopStatement({ bkgrndColor, pictureSide,
@@ -11,29 +13,33 @@ function DesktopStatement({ bkgrndColor, pictureSide,
     >
       {pictureSide === 'left' ? (
         <div>
-          <img
-            src={ personPicture }
-            alt="Entrevistado"
-            className="personPicDesktopLeft"
-          />
-          <img
-            src={ personStatementPicture }
-            alt="Declaração"
-            className="statementDesktopRight"
-          />
+          <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+            <img
+              src={ personPicture }
+              alt="Entrevistado"
+              className="personPicDesktopLeft"
+            />
+            <img
+              src={ personStatementPicture }
+              alt="Declaração"
+              className="statementDesktopRight"
+            />
+          </AnimationOnScroll>
         </div>
       ) : (
         <div>
-          <img
-            src={ personStatementPicture }
-            alt="Declaração"
-            className="statementDesktopLeft"
-          />
-          <img
-            src={ personPicture }
-            alt="Entrevistado"
-            className="personPicDesktopRight"
-          />
+          <AnimationOnScroll animateIn="animate__fadeInRightBig">
+            <img
+              src={ personStatementPicture }
+              alt="Declaração"
+              className="statementDesktopLeft"
+            />
+            <img
+              src={ personPicture }
+              alt="Entrevistado"
+              className="personPicDesktopRight"
+            />
+          </AnimationOnScroll>
         </div>
       )}
     </section>
