@@ -17,6 +17,10 @@
   content: '';
 }
 
+.newsSectionWrapper::-webkit-scrollbar {
+  display: none;
+}
+
 .newsSectionWrapper a {
   display: flex;
   margin: 1% 2%;
