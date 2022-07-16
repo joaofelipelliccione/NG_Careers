@@ -6,7 +6,6 @@
 }
 
 .secondCoverSection div {
-  background-color: var(--green);
   display: flex;
   width: 85%;
   flex-direction: column;
