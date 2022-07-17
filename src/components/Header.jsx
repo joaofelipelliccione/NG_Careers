@@ -1,5 +1,5 @@
 import React from 'react';
-import ngLogo from '../assets/logo_ng_cash.svg';
+import ngLogo from '../assets/logo_ng_cash.gif';
 import linkedinLogo from '../assets/logo_linkedin.svg';
 import '../styles/header.css';
 

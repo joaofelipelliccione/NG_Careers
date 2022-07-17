@@ -18,7 +18,8 @@
 }
 
 .ngLogo {
-  width: 160px;
+  width: 100px;
+  margin-left: 20px;
   animation-duration: 1s;
   animation-timing-function: ease-out;
   animation-delay: 0s;
