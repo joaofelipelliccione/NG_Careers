@@ -22,7 +22,7 @@
 
 .desktopSecondCover {
   width: 85%;
-  max-width: 120rem;
+  max-width: 150rem;
   transition-duration: 0.3s;
-  margin: 5% 0;
+  margin: 10% 0;
 }
