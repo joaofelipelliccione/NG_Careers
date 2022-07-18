@@ -22,9 +22,10 @@
 }
 
 .desktopCover {
-  width: 100%;
+  width: 90%;
   max-width: 210rem;
-  margin-top: 180px;
+  margin-top: 150px;
+  margin-right: 90px;
   transition-duration: 0.3s;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
