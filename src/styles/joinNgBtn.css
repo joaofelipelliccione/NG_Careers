@@ -7,7 +7,7 @@
   width: 100%;
   font-size: 2rem;
   font-weight: 500;
-  padding: 2% 0;
+  padding: 4% 0;
   transition-duration: 0.3s;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
@@ -21,12 +21,11 @@
   width: 100%;
   font-size: 2.8rem;
   font-weight: 500;
-  padding: 2% 0;
+  padding: 1.5% 0;
   transition-duration: 0.4s;
 }
 
 .joinNgBtnDesktop:hover {
   background-color: var(--green);
   color: var(--black);
-  text-decoration: overline;
 }

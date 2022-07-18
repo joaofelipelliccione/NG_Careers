@@ -13,10 +13,10 @@ import nadelmanTextMob from '../assets/statements/mobile/nadelman_text_mob.svg';
 import nadelmanPicDesktop from '../assets/statements/desktop/nadelman_pic_desk.png';
 import nadelmanTextDesktop from '../assets/statements/desktop/nadelman_text_desk.svg';
 
-// import kazuePicMob from '../assets/statements/mobile/kazue_pic_mob.png';
-// import kazueTextMob from '../assets/statements/mobile/kazue_text_mob.svg';
-// import kazuePicDesktop from '../assets/statements/desktop/meirot_pic_desk.png';
-// import kazueTextDesktop from '../assets/statements/desktop/meirot_text_desk.svg';
+import kazuePicMob from '../assets/statements/mobile/kazue_pic_mob.png';
+import kazueTextMob from '../assets/statements/mobile/kazue_text_mob.svg';
+import kazuePicDesktop from '../assets/statements/desktop/kazue_pic_desk.png';
+import kazueTextDesktop from '../assets/statements/desktop/kazue_text_desk.svg';
 
 import meirotPicMob from '../assets/statements/mobile/meirot_pic_mob.png';
 import meirotTextMob from '../assets/statements/mobile/meirot_text_mob.svg';
@@ -42,12 +42,12 @@ const statementsInfoMob = [
     personPic: nadelmanPicMob,
     personStatPic: nadelmanTextMob,
   },
-  // {
-  //   name: 'Kazue Kottwitz',
-  //   bgColor: '#01CA30',
-  //   personPic: kazuePicMob,
-  //   personStatPic: kazueTextMob,
-  // },
+  {
+    name: 'Kazue Kottwitz',
+    bgColor: '#01CA30',
+    personPic: kazuePicMob,
+    personStatPic: kazueTextMob,
+  },
   {
     name: 'Victor Meirot',
     bgColor: '#000000',
@@ -78,13 +78,13 @@ export const statementsInfoDesktop = [
     personPic: nadelmanPicDesktop,
     personStatPic: nadelmanTextDesktop,
   },
-  // {
-  //   name: 'Kazue Kottwitz',
-  //   bgColor: '#01CA30',
-  //   picSide: 'right',
-  //   personPic: kazuePicDesktop,
-  //   personStatPic: kazueTextDesktop,
-  // },
+  {
+    name: 'Kazue Kottwitz',
+    bgColor: '#01CA30',
+    picSide: 'right',
+    personPic: kazuePicDesktop,
+    personStatPic: kazueTextDesktop,
+  },
   {
     name: 'Victor Meirot',
     bgColor: '#000000',

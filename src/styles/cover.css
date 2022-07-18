@@ -5,6 +5,7 @@
   align-content: center;
   align-items: center;
   margin-bottom: 3rem;
+  padding: 1% 0;
 }
 
 .mobileCover {
@@ -18,18 +19,15 @@
   animation-timing-function: ease-in-out;
   animation-delay: 0s;
   animation-iteration-count: infinite;
-  animation-name: floatMobile;
 }
 
 .desktopCover {
   width: 100%;
-  max-width: 130rem;
-  margin-top: 230px;
-  margin-bottom: 2%;
+  max-width: 210rem;
+  margin-top: 210px;
   transition-duration: 0.3s;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
   animation-delay: 0s;
   animation-iteration-count: infinite;
-  animation-name: floatDesktop;
 }
