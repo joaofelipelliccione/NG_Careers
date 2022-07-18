@@ -6,7 +6,7 @@ import logoEstadao from '../assets/logo_estadao.svg';
 import logoFolhaSP from '../assets/logo_folhaSP.svg';
 import logoIstoE from '../assets/logo_istoE.svg';
 import logoUol from '../assets/logo_uol.svg';
-import newsBillboard from '../assets/news_billboard.png';
+import newsBillboard from '../assets/news_billboard.svg';
 import '../styles/newsSection.css';
 
 const newsIcons = [
