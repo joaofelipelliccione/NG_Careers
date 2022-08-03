@@ -32,7 +32,6 @@
   max-width: 7rem;
   transition-duration: 0.3s;
   margin: 20% 0;
-  animation: spin 5s linear infinite;
 }
 
 .newsIconsDesktop {
@@ -49,6 +48,9 @@
 }
 
 .newsBillboard {
+  background-color: var(--black);
+  border-top: solid 1px var(--white);
+  border-bottom: solid 1px var(--white);
   width: 100%;
   max-height: 100%;
 }

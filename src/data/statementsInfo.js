@@ -13,7 +13,7 @@ import nadelmanTextMob from '../assets/statements/mobile/nadelman_text_mob.svg';
 import nadelmanPicDesktop from '../assets/statements/desktop/nadelman_pic_desk.png';
 import nadelmanTextDesktop from '../assets/statements/desktop/nadelman_text_desk.svg';
 
-import kazuePicMob from '../assets/statements/mobile/kazue_pic_mob.svg';
+import kazuePicMob from '../assets/statements/mobile/kazue_pic_mob.png';
 import kazueTextMob from '../assets/statements/mobile/kazue_text_mob.svg';
 import kazuePicDesktop from '../assets/statements/desktop/kazue_pic_desk.svg';
 import kazueTextDesktop from '../assets/statements/desktop/kazue_text_desk.svg';

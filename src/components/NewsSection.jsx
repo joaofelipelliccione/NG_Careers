@@ -1,21 +1,25 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import logoGlobo from '../assets/logo_globo.svg';
-import logoForbes from '../assets/logo_forbes.svg';
-import logoEstadao from '../assets/logo_estadao.svg';
-import logoFolhaSP from '../assets/logo_folhaSP.svg';
-import logoIstoE from '../assets/logo_istoE.svg';
-import logoUol from '../assets/logo_uol.svg';
-import newsBillboard from '../assets/news_billboard.svg';
+import logoForbes from '../assets/logo_forbes.png';
+// import logoBloomberg from '../assets/logo_bloomberg.png';
+import logoValor from '../assets/logo_valor.png';
+import logoGlobo from '../assets/logo_globo.png';
+import logoExame from '../assets/logo_exame.png';
+import logoEstadao from '../assets/logo_estadao.png';
+// import logoInfomoney from '../assets/logo_infomoney.png';
+import logoNeofeed from '../assets/logo_neofeed.png';
+import newsBillboard from '../assets/news_billboard.png';
 import '../styles/newsSection.css';
 
 const newsIcons = [
-  { iconId: 1, iconImgSrc: logoGlobo, iconHref: 'https://oglobo.globo.com/clube-o-globo/servicos/oferta/ngcash-assine-e-ganhe.ghtml' },
-  { iconId: 2, iconImgSrc: logoForbes, iconHref: 'https://forbes.com.br/forbes-money/2021/06/segmentacao-de-fintechs-conheca-4-bancos-digitais-criados-para-publicos-especificos/#foto4' },
-  { iconId: 3, iconImgSrc: logoEstadao, iconHref: 'https://einvestidor.estadao.com.br/mercado/banco-neaglebank-youtubers-criancas/' },
-  { iconId: 4, iconImgSrc: logoFolhaSP, iconHref: 'https://www1.folha.uol.com.br/mpme/2021/05/empresas-lancam-aplicativos-de-mesada-digital-e-cartao-de-credito-para-criancas.shtml' },
-  { iconId: 5, iconImgSrc: logoIstoE, iconHref: 'https://www.istoedinheiro.com.br/tem-fintech-ate-para-criancas-e-adolescentes/' },
-  { iconId: 6, iconImgSrc: logoUol, iconHref: 'https://economia.uol.com.br/mais/ultimas-noticias/2021/01/27/fintechs-bancos-digitais-para-criancas-adolescentes.htm' },
+  { iconId: 1, iconImgSrc: logoForbes, iconHref: 'https://forbes.com.br/forbes-money/2022/08/fintech-ng-cash-recebe-aporte-historico-de-us-10-milhoes/' },
+  // { iconId: 2, iconImgSrc: logoBloomberg, iconHref: '' },
+  { iconId: 3, iconImgSrc: logoValor, iconHref: 'https://pipelinevalor.globo.com/startups/noticia/banco-da-new-generation-ngcash-capta-us-10-milhoes-com-a16z-e-monashees.ghtml' },
+  { iconId: 4, iconImgSrc: logoGlobo, iconHref: 'https://oglobo.globo.com/blogs/capital/post/2022/08/conta-digital-para-adolescentes-fundada-na-puc-rio-recebe-aporte-de-us-10-milhoes.ghtml' },
+  { iconId: 5, iconImgSrc: logoExame, iconHref: 'https://exame.com/negocios/ng-cash-app-financeiro-geracao-z-aporte-10-milhoes/' },
+  { iconId: 6, iconImgSrc: logoEstadao, iconHref: 'https://link.estadao.com.br/noticias/inovacao,fintech-ngcash-recebe-us-10-milhoes-para-ser-o-banco-da-geracao-z,70004125001' },
+  // { iconId: 7, iconImgSrc: logoInfomoney, iconHref: '' },
+  { iconId: 8, iconImgSrc: logoNeofeed, iconHref: 'https://neofeed.com.br/blog/home/aposta-da-stone-ng-cash-capta-seed-de-us-10-milhoes-com-a16z-e-monashees/' },
 ];
 
 function NewsSection() {
